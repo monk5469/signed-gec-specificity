@@ -1,0 +1,11 @@
+name: signed-gec
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.5
+  - scipy=1.18
+  - nibabel=5.4
+  - pip
+  - pip:
+      - jax==0.11.2

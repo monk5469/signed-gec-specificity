@@ -1,0 +1,26 @@
+{
+ "model": "OLS FP ~ 1 + nf + nf^2 + nf^3 (cooperative simulations only)",
+ "coef": [
+  0.002513201416183865,
+  1.2041179428692854,
+  -1.6173129977592375,
+  1.0319688042282784
+ ],
+ "n": 446,
+ "n_by_source": {
+  "luppi_r4e_e10c": 150,
+  "luppi_r4e_e11": 210,
+  "e12c": 86
+ },
+ "train_range_nf": [
+  0.0,
+  0.5583838383838384
+ ],
+ "in_sample_mae": 0.02033086034388712,
+ "source_freezes": {
+  "e10c": "b81b82ebaa7058cd98b45d68d42bace407f82a5047538b4e2572fc3c6477ad00",
+  "e11": "b7176d1cc9d7aa93829b1ab19143c68da6cf9a6d13b482bdba93e1e3a319438b",
+  "e12c": "73c0461854fab84578f283898c97754c6494bf84a894345573b6ffdf6f5efb01"
+ },
+ "script_sha": "5f937cf3453430130b399f617879f2ef7230b93effa79f785efc8d84f39e23db"
+}
